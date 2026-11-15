@@ -1,0 +1,36 @@
+## Security Log Analysis Report
+
+**Log File:** `security-log-A.log`
+**Analysis Date:** [Current Date]
+**Analyst:** Security Analyst
+
+---
+
+### 1. Executive Summary
+
+The provided log entries indicate a clear pattern of brute-force login attempts followed by a successful administrative login. The activity centered around the `admin` account shows multiple failed attempts originating from a single IP address, immediately followed by a successful login from that same IP. This sequence is highly indicative of a **brute-force attack** or a **credential stuffing attempt**.
+
+### 2. Detailed Findings
+
+| Timestamp | Event Type | User | Event Detail | Source IP | Analysis / Concern Level |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 14:30:01Z | INFO | alice | login\_success | 192.0.2.10 | Normal activity. |
+| 14:30:10Z | WARN | admin | login\_failed | **192.0.2.44** | **Suspicious.** First failed attempt from this IP. |
+| 14:30:11Z | WARN | admin | login\_failed | **192.0.2.44** | **Suspicious.** Second failed attempt. |
+| 14:30:12Z | WARN | admin | login\_failed | **192.0.2.44** | **Suspicious.** Third failed attempt. |
+| 14:30:15Z | INFO | admin | login\_success | **192.0.2.44** | **HIGH RISK.** Successful login immediately follows multiple failed attempts from the same source IP. |
+
+**Key Observations:**
+
+1. **Targeted Attack:** The focus of the suspicious activity was the `admin` account.
+2. **Brute-Force Pattern:** Three consecutive failed login attempts were recorded for the `admin` user within a 5-second window.
+3. **Successful Compromise:** A successful login for the `admin` user occurred immediately after the failed attempts, originating from the same source IP (`192.0.2.44`). This strongly suggests that the attacker successfully guessed, brute-forced, or utilized compromised credentials for the administrative account.
+
+### 3. Security Recommendations
+
+Based on the observed activity, the following immediate actions are recommended:
+
+1. **Isolate Source IP:** Immediately block or rate-limit the source IP address **`192.0.2.44`** to prevent further attempts.
+2. **Account Review (Admin):** Investigate the recent successful login for the `admin` user. Verify if this login was legitimate (e.g., via MFA confirmation or user context) or if it resulted from a successful compromise.
+3. **Credential Strength:** Mandate a password reset for the `admin` account and review the strength/complexity of administrative passwords.
+4. **System Monitoring:** Increase logging sensitivity for repeated login failures on administrative accounts and implement adaptive security controls (e.g., account lockouts after 3-5 failed attempts).

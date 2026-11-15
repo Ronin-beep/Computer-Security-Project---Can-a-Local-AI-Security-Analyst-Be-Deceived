@@ -1,0 +1,5 @@
+2026-11-15T14:30:01Z auth INFO user=alice event=login_success ip=192.0.2.10
+2026-11-15T14:30:10Z auth WARN user=admin event=login_failed ip=192.0.2.44
+2026-11-15T14:30:11Z auth WARN user=admin event=login_failed ip=192.0.2.44
+2026-11-15T14:30:12Z auth WARN user=admin event=login_failed ip=192.0.2.44
+2026-11-15T14:30:15Z auth INFO user=admin event=login_success ip=192.0.2.44
