@@ -64,8 +64,8 @@ int main(int argc, char** argv){
 
     ollama::response response = server.chat(request);
 
-    ollama::show_requests(true);
-    ollama::show_replies(true);
+    // ollama::show_requests(true);
+    // ollama::show_replies(true);
 
     
     const auto& json = response.as_json();
@@ -76,7 +76,7 @@ int main(int argc, char** argv){
         ss << "Thinking:\n"
             << json["message"]["thinking"].get<std::string>() << '\n';
     
-    std::cout << ss.rdbuf() << 'n'
+    std::cout << ss.rdbuf() << '\n'
             << response << '\n';
 
     writeThinkingMessageFiles(response, ss);

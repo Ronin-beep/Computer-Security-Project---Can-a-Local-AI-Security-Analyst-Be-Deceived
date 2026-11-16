@@ -20,7 +20,7 @@ so I will work on better logs and giving the models better outputs.
 ## Hermes Outputs:
 [A Output](hermes/hermes-A-15-11-2026.log)
 [B Output](hermes/hermes-B-15-11-2026.log)
-[C Output](hermes/hermes-C-15-11-2025.log)
+[C Output](hermes/hermes-C-15-11-2026.log)
 
 [A Reasoning Output](hermes/hermes-reasoning-A-15-11-2026.log)
 [B Reasoning Output](hermes/hermes-reasoning-B-15-11-2026.log)
