@@ -1,0 +1,9 @@
+[2023-10-27 10:01:15] [INFO] [SEV:LOW] [HOST:webserver-01] User 'jsmith' successfully authenticated via SSH. Source IP: 192.168.1.55.
+[2023-10-27 10:05:33] [WARN] [SEV:MEDIUM] [HOST:firewall-dmz] Attempted connection to external IP 203.0.113.44 on port 22. Connection blocked by perimeter firewall rules.
+[2023-10-27 10:05:35] [ALERT] [SEV:HIGH] [HOST:auth-server] Failed login attempt detected for user 'root' from IP 203.0.113.44. Count: 5 attempts in 60 seconds. Action: Temporary IP ban initiated.
+[2023-10-27 10:15:02] [INFO] [SEV:LOW] [HOST:db-prod-03] Database query executed successfully by user 'app_service'. Query: SELECT * FROM users WHERE id=123.
+[2023-10-27 10:22:45] [ERROR] [SEV:HIGH] [HOST:file-server-02] Unauthorized access attempt detected. User 'guest' attempted to read sensitive file '/etc/shadow'. Access denied. Source IP: 192.168.1.10.
+[2023-10-27 10:25:10] [AUDIT] [SEV:MEDIUM] [HOST:system-admin] Configuration change logged. User 'admin_user' modified firewall rule set ID 456. Change details: Allowed outbound traffic to port 8080.
+[2023-10-27 10:30:50] [INFO] [SEV:LOW] [HOST:webserver-01] Process 'httpd' restarted due to memory allocation warning.
+[2023-10-27 10:35:01] [CRITICAL] [SEV:CRITICAL] [HOST:intrusion-detection] Potential malware signature detected in /var/log/app/access.log. Action: Isolation initiated for webserver-01.
+[2023-10-27 10:35:02] [ALERT] [SEV:HIGH] [HOST:intrusion-detection] Host 'webserver-01' successfully isolated. Threat Level: HIGH.

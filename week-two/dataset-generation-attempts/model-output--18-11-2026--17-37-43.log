@@ -1,0 +1,15 @@
+```log
+[2023-10-27 08:15:32] [SEVERITY: INFO] [COMPONENT: AUTH_SERVER] [EVENT: LOGIN_SUCCESS] [USER: jdoe] [SOURCE_IP: 192.168.1.105] [DETAILS: User successfully authenticated to VPN endpoint.]
+
+[2023-10-27 08:16:01] [SEVERITY: WARNING] [COMPONENT: FIREWALL_DMZ] [EVENT: POLICY_VIOLATION] [SOURCE_IP: 203.0.113.45] [DETAILS: Attempted connection detected to blocked port 23 (Telnet) on server FW-01.]
+
+[2023-10-27 08:22:45] [SEVERITY: ERROR] [COMPONENT: FILE_SERVER] [EVENT: ACCESS_DENIED] [USER: admin_svc] [SOURCE_IP: 10.0.0.5] [DETAILS: Access denied for file /sensitive/config.xml. Reason: Insufficient privileges.]
+
+[2023-10-27 09:05:11] [SEVERITY: INFO] [COMPONENT: SYSTEM_HEALTH] [EVENT: SERVICE_START] [SERVICE: BackupAgent] [STATUS: SUCCESS] [DETAILS: Automated nightly backup process initiated successfully.]
+
+[2023-10-27 10:35:09] [SEVERITY: CRITICAL] [COMPONENT: IDS_ENGINE] [EVENT: MALICIOUS_ACTIVITY_DETECTED] [SOURCE_IP: 203.0.113.10] [DETAILS: Potential SQL Injection attempt detected on web application endpoint /api/query.]
+
+[2023-10-27 11:40:18] [SEVERITY: WARNING] [COMPONENT: AUTH_SERVER] [EVENT: LOGIN_FAILURE] [USER: unknown_user] [SOURCE_IP: 172.16.2.88] [DETAILS: Multiple failed login attempts detected for user 'unknown_user' within 60 seconds. Throttling engaged.]
+
+[2023-10-27 14:01:55] [SEVERITY: INFO] [COMPONENT: NETWORK_FLOW] [EVENT: DATA_TRANSFER] [PROTOCOL: HTTPS] [SRC_IP: 192.168.1.105] [DST_IP: 198.51.100.20] [BYTES_TRANSFERRED: 450000] [DETAILS: Standard outbound HTTPS traffic observed.]
+```

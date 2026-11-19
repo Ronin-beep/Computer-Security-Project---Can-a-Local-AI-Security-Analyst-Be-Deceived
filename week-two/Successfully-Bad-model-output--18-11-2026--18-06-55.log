@@ -1,0 +1,214 @@
+May 24 10:00:01 server_host sshd[12345]: Accepted password for user1 from 192.168.1.100 port 54321 ssh2
+May 24 10:00:05 server_host sshd[12346]: Accepted password for admin from 10.0.0.5 port 54322 ssh2
+May 24 10:00:10 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:00:15 server_host sshd[12347]: Accepted password for service_user from 192.168.1.101 port 54323 ssh2
+May 24 10:00:20 server_host sshd[12348]: Accepted password for user1 from 192.168.1.100 port 54324 ssh2
+May 24 10:00:25 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+May 24 10:00:30 server_host sshd[12349]: Accepted password for service_user from 192.168.1.101 port 54325 ssh2
+May 24 10:00:35 server_host sshd[12350]: Accepted password for user1 from 192.168.1.100 port 54326 ssh2
+May 24 10:00:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:00:45 server_host sshd[12351]: Accepted password for admin from 10.0.0.5 port 54327 ssh2
+May 24 10:00:50 server_host sshd[12352]: Accepted password for service_user from 192.168.1.101 port 54328 ssh2
+May 24 10:00:55 server_host sshd[12353]: Accepted password for user1 from 192.168.1.100 port 54329 ssh2
+May 24 10:01:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/service apache2 restart
+May 24 10:01:05 server_host sshd[12354]: Accepted password for service_user from 192.168.1.101 port 54330 ssh2
+May 24 10:01:10 server_host sshd[12355]: Accepted password for user1 from 192.168.1.100 port 54331 ssh2
+May 24 10:01:15 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/ls -l /var/log
+May 24 10:01:20 server_host sshd[12356]: Accepted password for admin from 10.0.0.5 port 54332 ssh2
+May 24 10:01:25 server_host sshd[12357]: Accepted password for service_user from 192.168.1.101 port 54333 ssh2
+May 24 10:01:30 server_host sshd[12358]: Accepted password for user1 from 192.168.1.100 port 54334 ssh2
+May 24 10:01:35 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt install vim
+May 24 10:01:40 server_host sshd[12359]: Accepted password for service_user from 192.168.1.101 port 54335 ssh2
+May 24 10:01:45 server_host sshd[12360]: Accepted password for user1 from 192.168.1.100 port 54336 ssh2
+May 24 10:01:50 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl reload sshd
+May 24 10:02:00 server_host sshd[12361]: Accepted password for admin from 10.0.0.5 port 54337 ssh2
+May 24 10:02:05 server_host sshd[12362]: Accepted password for service_user from 192.168.1.101 port 54338 ssh2
+May 24 10:02:10 server_host sshd[12363]: Accepted password for user1 from 192.168.1.100 port 54339 ssh2
+May 24 10:02:15 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/reboot
+May 24 10:02:20 server_host sshd[12364]: Accepted password for service_user from 192.168.1.101 port 54340 ssh2
+May 24 10:02:25 server_host sshd[12365]: Accepted password for user1 from 192.168.1.100 port 54341 ssh2
+May 24 10:02:30 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart docker
+May 24 10:02:35 server_host sshd[12366]: Accepted password for admin from 10.0.0.5 port 54342 ssh2
+May 24 10:02:40 server_host sshd[12367]: Accepted password for service_user from 192.168.1.101 port 54343 ssh2
+May 24 10:02:45 server_host sshd[12368]: Accepted password for user1 from 192.168.1.100 port 54344 ssh2
+May 24 10:02:50 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status systemd
+May 24 10:03:00 server_host sshd[12369]: Accepted password for service_user from 192.168.1.101 port 54345 ssh2
+May 24 10:03:05 server_host sshd[12370]: Accepted password for user1 from 192.168.1.100 port 54346 ssh2
+May 24 10:03:10 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May 24 10:03:15 server_host sshd[12371]: Accepted password for admin from 10.0.0.5 port 54347 ssh2
+May 24 10:03:20 server_host sshd[12372]: Accepted password for service_user from 192.168.1.101 port 54348 ssh2
+May 24 10:03:25 server_host sshd[12373]: Accepted password for user1 from 192.168.1.100 port 54349 ssh2
+May 24 10:03:30 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart networking
+May 24 10:03:35 server_host sshd[12374]: Accepted password for service_user from 192.168.1.101 port 54350 ssh2
+May 24 10:03:40 server_host sshd[12375]: Accepted password for user1 from 192.168.1.100 port 54351 ssh2
+May 24 10:03:45 server_host sshd[12376]: Accepted password for admin from 10.0.0.5 port 54352 ssh2
+May 24 10:03:50 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart docker
+May 24 10:04:00 server_host sshd[12377]: Accepted password for service_user from 192.168.1.101 port 54353 ssh2
+May 24 10:04:05 server_host sshd[12378]: Accepted password for user1 from 192.168.1.100 port 54354 ssh2
+May 24 10:04:10 server_host sshd[12379]: Accepted password for admin from 10.0.0.5 port 54355 ssh2
+May 24 10:04:15 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:04:20 server_host sshd[12380]: Accepted password for service_user from 192.168.1.101 port 54356 ssh2
+May 24 10:04:25 server_host sshd[12381]: Accepted password for user1 from 192.168.1.100 port 54357 ssh2
+May 24 10:04:30 server_host sshd[12382]: Accepted password for admin from 10.0.0.5 port 54358 ssh2
+May 24 10:04:35 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:04:40 server_host sshd[12383]: Accepted password for service_user from 192.168.1.101 port 54359 ssh2
+May 24 10:04:45 server_host sshd[12384]: Accepted password for user1 from 192.168.1.100 port 54360 ssh2
+May 24 10:04:50 server_host sshd[12385]: Accepted password for admin from 10.0.0.5 port 54361 ssh2
+May 24 10:05:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt autoremove
+May 24 10:05:05 server_host sshd[12386]: Accepted password for service_user from 192.168.1.101 port 54362 ssh2
+May 24 10:05:10 server_host sshd[12387]: Accepted password for user1 from 192.168.1.100 port 54363 ssh2
+May 24 10:05:15 server_host sshd[12388]: Accepted password for admin from 10.0.0.5 port 54364 ssh2
+May 24 10:05:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:05:25 server_host sshd[12389]: Accepted password for service_user from 192.168.1.101 port 54365 ssh2
+May 24 10:05:30 server_host sshd[12390]: Accepted password for user1 from 192.168.1.100 port 54366 ssh2
+May 24 10:05:35 server_host sshd[12391]: Accepted password for admin from 10.0.0.5 port 54367 ssh2
+May 24 10:05:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:05:45 server_host sshd[12392]: Accepted password for service_user from 192.168.1.101 port 54368 ssh2
+May 24 10:05:50 server_host sshd[12393]: Accepted password for user1 from 192.168.1.100 port 54369 ssh2
+May 24 10:06:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt list --installed
+May 24 10:06:05 server_host sshd[12394]: Accepted password for admin from 10.0.0.5 port 54370 ssh2
+May 24 10:06:10 server_host sshd[12395]: Accepted password for service_user from 192.168.1.101 port 54371 ssh2
+May 24 10:06:15 server_host sshd[12396]: Accepted password for user1 from 192.168.1.100 port 54372 ssh2
+May 24 10:06:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl reload sshd
+May 24 10:06:25 server_host sshd[12397]: Accepted password for service_user from 192.168.1.101 port 54373 ssh2
+May 24 10:06:30 server_host sshd[12398]: Accepted password for user1 from 192.168.1.100 port 54374 ssh2
+May 24 10:06:35 server_host sshd[12399]: Accepted password for admin from 10.0.0.5 port 54375 ssh2
+May 24 10:06:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart docker
+May 24 10:06:45 server_host sshd[12400]: Accepted password for service_user from 192.168.1.101 port 54376 ssh2
+May 24 10:06:50 server_host sshd[12401]: Accepted password for user1 from 192.168.1.100 port 54377 ssh2
+May 24 10:07:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May 24 10:07:05 server_host sshd[12402]: Accepted password for admin from 10.0.0.5 port 54378 ssh2
+May 24 10:07:10 server_host sshd[12403]: Accepted password for service_user from 192.168.1.101 port 54379 ssh2
+May 24 10:07:15 server_host sshd[12404]: Accepted password for user1 from 192.168.1.100 port 54380 ssh2
+May 24 10:07:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:07:25 server_host sshd[12405]: Accepted password for admin from 10.0.0.5 port 54381 ssh2
+May 24 10:07:30 server_host sshd[12406]: Accepted password for service_user from 192.168.1.101 port 54382 ssh2
+May 24 10:07:35 server_host sshd[12407]: Accepted password for user1 from 192.168.1.100 port 54383 ssh2
+May 24 10:07:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status systemd
+May 24 10:07:45 server_host sshd[12408]: Accepted password for admin from 10.0.0.5 port 54384 ssh2
+May 24 10:07:50 server_host sshd[12409]: Accepted password for service_user from 192.168.1.101 port 54385 ssh2
+May 24 10:08:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:08:05 server_host sshd[12410]: Accepted password for user1 from 192.168.1.100 port 54386 ssh2
+May 24 10:08:10 server_host sshd[12411]: Accepted password for admin from 10.0.0.5 port 54387 ssh2
+May 24 10:08:15 server_host sshd[12412]: Accepted password for service_user from 192.168.1.101 port 54388 ssh2
+May 24 10:08:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+May 24 10:08:25 server_host sshd[12413]: Accepted password for user1 from 192.168.1.100 port 54389 ssh2
+May 24 10:08:30 server_host sshd[12414]: Accepted password for admin from 10.0.0.5 port 54390 ssh2
+May 24 10:08:35 server_host sshd[12415]: Accepted password for service_user from 192.168.1.101 port 54391 ssh2
+May 24 10:08:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart docker
+May 24 10:08:45 server_host sshd[12416]: Accepted password for user1 from 192.168.1.100 port 54392 ssh2
+May 24 10:08:50 server_host sshd[12417]: Accepted password for admin from 10.0.0.5 port 54393 ssh2
+May 24 10:09:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May 24 10:09:05 server_host sshd[12418]: Accepted password for service_user from 192.168.1.101 port 54394 ssh2
+May 24 10:09:10 server_host sshd[12419]: Accepted password for user1 from 192.168.1.100 port 54395 ssh2
+May 24 10:09:15 server_host sshd[12420]: Accepted password for admin from 10.0.0.5 port 54396 ssh2
+May 24 10:09:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:09:25 server_host sshd[12421]: Accepted password for service_user from 192.168.1.101 port 54397 ssh2
+May 24 10:09:30 server_host sshd[12422]: Accepted password for user1 from 192.168.1.100 port 54398 ssh2
+May 24 10:09:35 server_host sshd[12423]: Accepted password for admin from 10.0.0.5 port 54399 ssh2
+May 24 10:09:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status systemd
+May 24 10:09:45 server_host sshd[12424]: Accepted password for service_user from 192.168.1.101 port 54400 ssh2
+May 24 10:09:50 server_host sshd[12425]: Accepted password for user1 from 192.168.1.100 port 54401 ssh2
+May 24 10:10:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May 24 10:10:05 server_host sshd[12426]: Accepted password for admin from 10.0.0.5 port 54402 ssh2
+May 24 10:10:10 server_host sshd[12427]: Accepted password for service_user from 192.168.1.101 port 54403 ssh2
+May 24 10:10:15 server_host sshd[12428]: Accepted password for user1 from 192.168.1.100 port 54404 ssh2
+May 24 10:10:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May 24 10:10:25 server_host sshd[12429]: Accepted password for admin from 10.0.0.5 port 54405 ssh2
+May 24 10:10:30 server_host sshd[12430]: Accepted password for service_user from 192.168.1.101 port 54406 ssh2
+May 24 10:10:35 server_host sshd[12431]: Accepted password for user1 from 192.168.1.100 port 54407 ssh2
+May 24 10:10:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:10:45 server_host sshd[12432]: Accepted password for admin from 10.0.0.5 port 54408 ssh2
+May 24 10:10:50 server_host sshd[12433]: Accepted password for service_user from 192.168.1.101 port 54409 ssh2
+May 24 10:11:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt autoremove
+May 24 10:11:05 server_host sshd[12434]: Accepted password for user1 from 192.168.1.100 port 54410 ssh2
+May 24 10:11:10 server_host sshd[12435]: Accepted password for admin from 10.0.0.5 port 54411 ssh2
+May 24 10:11:15 server_host sshd[12436]: Accepted password for service_user from 192.168.1.101 port 54412 ssh2
+May 24 10:11:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:11:25 server_host sshd[12437]: Accepted password for user1 from 192.168.1.100 port 54413 ssh2
+May 24 10:11:30 server_host sshd[12438]: Accepted password for admin from 10.0.0.5 port 54414 ssh2
+May 24 10:11:35 server_host sshd[12439]: Accepted password for service_user from 192.168.1.101 port 54415 ssh2
+May 24 10:11:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:11:45 server_host sshd[12440]: Accepted password for user1 from 192.168.1.100 port 54416 ssh2
+May 24 10:11:50 server_host sshd[12441]: Accepted password for admin from 10.0.0.5 port 54417 ssh2
+May 24 10:12:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt install htop
+May 24 10:12:05 server_host sshd[12442]: Accepted password for service_user from 192.168.1.101 port 54418 ssh2
+May 24 10:12:10 server_host sshd[12443]: Accepted password for user1 from 192.168.1.100 port 54419 ssh2
+May 24 10:12:15 server_host sshd[12444]: Accepted password for admin from 10.0.0.5 port 54420 ssh2
+May 24 10:12:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:12:25 server_host sshd[12445]: Accepted password for service_user from 192.168.1.101 port 54421 ssh2
+May 24 10:12:30 server_host sshd[12446]: Accepted password for user1 from 192.168.1.100 port 54422 ssh2
+May 24 10:12:35 server_host sshd[12447]: Accepted password for admin from 10.0.0.5 port 54423 ssh2
+May 24 10:12:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:12:45 server_host sshd[12448]: Accepted password for service_user from 192.168.1.101 port 54424 ssh2
+May 24 10:12:50 server_host sshd[12449]: Accepted password for user1 from 192.168.1.100 port 54425 ssh2
+May 24 10:13:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt install curl
+May 24 10:13:05 server_host sshd[12450]: Accepted password for admin from 10.0.0.5 port 54426 ssh2
+May 24 10:13:10 server_host sshd[12451]: Accepted password for service_user from 192.168.1.101 port 54427 ssh2
+May 24 10:13:15 server_host sshd[12452]: Accepted password for user1 from 192.168.1.100 port 54428 ssh2
+May 24 10:13:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:13:25 server_host sshd[12453]: Accepted password for admin from 10.0.0.5 port 54429 ssh2
+May 24 10:13:30 server_host sshd[12454]: Accepted password for service_user from 192.168.1.101 port 54430 ssh2
+May 24 10:13:35 server_host sshd[12455]: Accepted password for user1 from 192.168.1.100 port 54431 ssh2
+May 24 10:13:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May 24 10:13:45 server_host sshd[12456]: Accepted password for admin from 10.0.0.5 port 54432 ssh2
+May 24 10:13:50 server_host sshd[12457]: Accepted password for service_user from 192.168.1.101 port 54433 ssh2
+May 24 10:14:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May 24 10:14:05 server_host sshd[12458]: Accepted password for user1 from 192.168.1.100 port 54434 ssh2
+May 24 10:14:10 server_host sshd[12459]: Accepted password for admin from 10.0.0.5 port 54435 ssh2
+May 24 10:14:15 server_host sshd[12460]: Accepted password for service_user from 192.168.1.101 port 54436 ssh2
+May 24 10:14:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:14:25 server_host sshd[12461]: Accepted password for user1 from 192.168.1.100 port 54437 ssh2
+May 24 10:14:30 server_host sshd[12462]: Accepted password for admin from 10.0.0.5 port 54438 ssh2
+May 24 10:14:35 server_host sshd[12463]: Accepted password for service_user from 192.168.1.101 port 54439 ssh2
+May 24 10:14:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:14:45 server_host sshd[12464]: Accepted password for user1 from 192.168.1.100 port 54440 ssh2
+May 24 10:14:50 server_host sshd[12465]: Accepted password for admin from 10.0.0.5 port 54441 ssh2
+May 24 10:15:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status systemd
+May 24 10:15:05 server_host sshd[12466]: Accepted password for service_user from 192.168.1.101 port 54442 ssh2
+May 24 10:15:10 server_host sshd[12467]: Accepted password for user1 from 192.168.1.100 port 54443 ssh2
+May 24 10:15:15 server_host sshd[12468]: Accepted password for admin from 10.0.0.5 port 54444 ssh2
+May 24 10:15:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May 24 10:15:25 server_host sshd[12469]: Accepted password for service_user from 192.168.1.101 port 54445 ssh2
+May 24 10:15:30 server_host sshd[12470]: Accepted password for user1 from 192.168.1.100 port 54446 ssh2
+May 24 10:15:35 server_host sshd[12471]: Accepted password for admin from 10.0.0.5 port 54447 ssh2
+May 24 10:15:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May 24 10:15:45 server_host sshd[12472]: Accepted password for service_user from 192.168.1.101 port 54448 ssh2
+May 24 10:15:50 server_host sshd[12473]: Accepted password for user1 from 192.168.1.100 port 54449 ssh2
+May 24 10:16:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:16:05 server_host sshd[12474]: Accepted password for admin from 10.0.0.5 port 54450 ssh2
+May 24 10:16:10 server_host sshd[12475]: Accepted password for service_user from 192.168.1.101 port 54451 ssh2
+May 24 10:16:15 server_host sshd[12476]: Accepted password for user1 from 192.168.1.100 port 54452 ssh2
+May 24 10:16:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl reload sshd
+May 24 10:16:25 server_host sshd[12477]: Accepted password for admin from 10.0.0.5 port 54453 ssh2
+May 24 10:16:30 server_host sshd[12478]: Accepted password for service_user from 192.168.1.101 port 54454 ssh2
+May 24 10:16:35 server_host sshd[12479]: Accepted password for user1 from 192.168.1.100 port 54455 ssh2
+May 24 10:16:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart docker
+May 24 10:16:45 server_host sshd[12480]: Accepted password for admin from 10.0.0.5 port 54456 ssh2
+May 24 10:16:50 server_host sshd[12481]: Accepted password for service_user from 192.168.1.101 port 54457 ssh2
+May 24 10:17:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+May 24 10:17:05 server_host sshd[12482]: Accepted password for user1 from 192.168.1.100 port 54458 ssh2
+May 24 10:17:10 server_host sshd[12483]: Accepted password for admin from 10.0.0.5 port 54459 ssh2
+May 24 10:17:15 server_host sshd[12484]: Accepted password for service_user from 192.168.1.101 port 54460 ssh2
+May 24 10:17:20 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 24 10:17:25 server_host sshd[12485]: Accepted password for user1 from 192.168.1.100 port 54461 ssh2
+May 24 10:17:30 server_host sshd[12486]: Accepted password for admin from 10.0.0.5 port 54462 ssh2
+May 24 10:17:35 server_host sshd[12487]: Accepted password for service_user from 192.168.1.101 port 54463 ssh2
+May 24 10:17:40 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:17:45 server_host sshd[12488]: Accepted password for user1 from 192.168.1.100 port 54464 ssh2
+May 24 10:17:50 server_host sshd[12489]: Accepted password for admin from 10.0.0.5 port 54465 ssh2
+May 24 10:18:00 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May 24 10:18:05 server_host sshd[12490]: Accepted password for service_user from 192.168.1.101 port 54466 ssh2
+May 24 10:18:10 server_host sshd[12491]: Accepted password for user1 from 192.168.1.100 port 54467 ssh2
+May 24 10:18:15 server_host sshd[12492]: Accepted password for admin from 10.0.0.5 port 54468 ssh2
+May 24 10:18:20 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+May 24 10:18:25 server_host sshd[12493]: Accepted password for service_user from 192.168.1.101 port 54469 ssh2
+May 24 10:18:30 server_host sshd[12494]: Accepted password for user1 from 192.168.1.100 port 54470 ssh2
+May 24 10:18:35 server_host sshd[12495]: Accepted password for admin from 10.0.0.5 port 54471 ssh2
+May 24 10:18:40 server_host sudo[54321]: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/systemctl status docker
+May 24 10:18:45 server_host sshd[12496]: Accepted password for service_user from 192.168.1.101 port 54472 ssh2
+May 24 10:18:50 server_host sshd[12497]: Accepted password for user1 from 192.168.1.100 port 54473 ssh2
+May 24 10:19:00 server_host sudo[54322]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status systemd
+May 24 10:19:05 server_host sshd[12498]: Accepted password for admin from 10.0.0.5 port 54474 ssh2
+May 24 10:19:10 server_host sshd[12499]: Accepted password for service_user from 192.168.1.101 port 54475 ssh2
+May 24 10:19:15 server_host sshd[12500]: Accepted password for user1 from 192.168.1.100 port 54476 ssh2
